@@ -2,7 +2,11 @@
 
 This is assignment project Link [click_here]().
 
-- React route
+### Work Explanation  
+- React routes
+- Destructuring
+- Recharts
+- custom hook
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
