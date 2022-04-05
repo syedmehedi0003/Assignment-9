@@ -46,7 +46,19 @@
 
 .review-btn {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
+    background-color: rgb(29, 51, 214);
+    color: white;
+    padding: 0px 5px;
+    border-radius: 5px;
+
+}
+
+.review-btn:hover {
+    color: rgb(29, 51, 214);
+    background-color: white;
+    border: 1px solid rgb(29, 51, 214);
+    border-radius: 5px;
 }
 
 @media only screen and (max-width: 576px) {
@@ -57,6 +69,7 @@
 
     .banner-text {
         text-align: center;
+
     }
 
     .live-btn {

@@ -1,0 +1,11 @@
+@media only screen and (max-width: 576px) {
+    .custom-width {
+        width: 60% !important;
+        height: 200px;
+    }
+}
+
+.custom-width {
+    width: 400px;
+    height: 200px;
+}

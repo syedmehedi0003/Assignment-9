@@ -32,7 +32,7 @@ const Home = () => {
             <div className='review-container'>
 
                 {
-                    reviews.map(review =>
+                    reviews.slice(0, 3).map(review =>
                         <ReviewCart
 
                             key={reviews.id}
@@ -47,9 +47,9 @@ const Home = () => {
 
             </div>
 
-            <button>
-                <Link className='review-btn' to="/reviews"> See All Reviews</Link>
-            </button>
+
+            <Link className='review-btn' to="/reviews"> See All Reviews</Link>
+
 
 
 

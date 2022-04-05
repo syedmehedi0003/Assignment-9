@@ -1,5 +1,6 @@
 import React from 'react';
 import { Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
+import './MyLineChart.css';
 
 const MyLineChart = () => {
 
@@ -44,7 +45,7 @@ const MyLineChart = () => {
     ];
 
     return (
-        <LineChart width={500} height={300} data={data}>
+        <LineChart className='custom-width' width={500} height={300} data={data}>
             <Line type="monotone" dataKey="sell" stroke="#8884d8" ></Line>
             <Line type="monotone" dataKey="investment" stroke="#8884d8" ></Line>
             <XAxis dataKey="month" />
