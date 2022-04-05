@@ -1,7 +1,8 @@
 import React from 'react';
 import MyBarChart from '../MyBarChart/MyBarChart';
 import MyLineChart from '../MyLineChart/MyLineChart';
-import MyPieChart from '../MyPieChart/MyPieChart';
+import './DashBoard.css';
+
 
 
 
@@ -11,12 +12,12 @@ const DashBoard = () => {
         <div className='row mt-4'>
             <h2 className='my-4'>This is DashBoard</h2>
 
-            <div className='col-lg-6 col-12'>
+            <div className='col-lg-6 col-12 '>
                 <MyLineChart></MyLineChart>
             </div>
 
 
-            <div className='col-lg-6 col-12'>
+            <div className='col-lg-6 col-12 '>
                 <MyBarChart></MyBarChart>
             </div>
 
