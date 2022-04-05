@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link, LineChart } from 'react-router-dom';
+import { Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 const MyLineChart = () => {
+
 
     const data = [
         {
@@ -40,12 +41,15 @@ const MyLineChart = () => {
             "sell": 670,
             "revenue": 61000
         }
-    ]
+    ];
 
     return (
-        <LineChart width={600} height={400} data={data}>
-
-            <Link type="monotone" dataKey="month" stroke="#8884d8"></Link>
+        <LineChart width={500} height={300} data={data}>
+            <Line type="monotone" dataKey="sell" stroke="#8884d8" ></Line>
+            <Line type="monotone" dataKey="investment" stroke="#8884d8" ></Line>
+            <XAxis dataKey="month" />
+            <YAxis />
+            <Tooltip />
         </LineChart>
     );
 };
