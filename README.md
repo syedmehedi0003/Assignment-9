@@ -2,7 +2,7 @@
 
 This is assignment project Link [click_here]().
 
-*1.React route
+-React route
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
