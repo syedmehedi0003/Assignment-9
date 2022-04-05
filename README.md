@@ -1,12 +1,12 @@
 # Assignment-9
 
-This is assignment project Link [click_here]().
+## This is assignment project Link [click_here]().
 
 ### Work Explanation  
 - React routes
 - Destructuring
 - Recharts
-- custom hook
+- Custom hook
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
