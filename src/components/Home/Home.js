@@ -2,7 +2,6 @@ import React from 'react';
 import './Home.css';
 import img from '../../images/download (2).jpg';
 import useReviews from '../../hooks/useReviews';
-// import Reviews from '../ReviewCart/ReviewCart';
 import { Link } from 'react-router-dom';
 import ReviewCart from '../ReviewCart/ReviewCart';
 
