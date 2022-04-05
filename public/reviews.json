@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Syed Mehedi",
+        "rating": 4.5,
+        "text": "Nice product",
+        "img": "Tshirtimg/propic.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Md Hasan",
+        "rating": 4.5,
+        "text": "Upgrade quality",
+        "img": "Tshirtimg/propic.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Md Mahin",
+        "rating": 5,
+        "text": "Plz add some new collection",
+        "img": "Tshirtimg/propic.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Wasi Uddin",
+        "rating": 4.5,
+        "text": "Awesome",
+        "img": "Tshirtimg/propic.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Md Gias",
+        "rating": 4.5,
+        "text": "Nice product",
+        "img": "Tshirtimg/propic.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Md Masud",
+        "rating": 4.5,
+        "text": "Good shop",
+        "img": "Tshirtimg/propic.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Md Saiful",
+        "rating": 4.5,
+        "img": "Tshirtimg/propic.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Md Rofik",
+        "rating": 4,
+        "img": "Tshirtimg/propic.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Md Baten",
+        "rating": 4.5,
+        "img": "Tshirtimg/propic.jpg"
+    }
+]
